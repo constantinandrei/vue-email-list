@@ -16,7 +16,7 @@
                 <div class="card-body">
                     <h2 v-if="emails === null">App che genera 10 indirizzi email</h2>
                     <h2 v-else-if="emails.length < 10">Stiamo generando la tua lista</h2>
-                    <h2 v-else-if="emails.length = 10">Indirizzi email generati:</h2>
+                    <h2 v-else-if="emails.length === 10">Indirizzi email generati:</h2>
                     <template v-if="emails !== null">
                         <template v-if="emails.length === 10">
                             <ul class="list-group pt-4">
