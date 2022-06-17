@@ -14,7 +14,7 @@ new Vue ({
 
     data: {
         httpAdress: "https://flynn.boolean.careers/exercises/api/random/mail",
-        emails: null
+        emails: []
     },
 
     methods: {
